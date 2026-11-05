@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2f5d46"/>
+  <g transform="translate(0,14)">
+    <!-- otwarta książka -->
+    <path d="M256 190 C214 160 150 152 96 170 L96 346 C150 328 214 336 256 366 Z" fill="#fbf8ef"/>
+    <path d="M256 190 C298 160 362 152 416 170 L416 346 C362 328 298 336 256 366 Z" fill="#efe9d8"/>
+    <path d="M256 190 L256 366" stroke="#2f5d46" stroke-width="6" stroke-linecap="round"/>
+    <!-- linie tekstu -->
+    <g stroke="#9fb3a5" stroke-width="9" stroke-linecap="round">
+      <path d="M130 214 C160 208 196 212 224 226"/><path d="M130 248 C160 242 196 246 224 260"/><path d="M130 282 C160 276 196 280 224 294"/>
+    </g>
+    <g stroke="#b9ae92" stroke-width="9" stroke-linecap="round">
+      <path d="M288 226 C316 212 352 208 382 214"/><path d="M288 260 C316 246 352 242 382 248"/>
+    </g>
+    <!-- strzałka „UP” wznosząca się ze środka książki -->
+    <path d="M256 150 L256 60" stroke="#f2b84b" stroke-width="22" stroke-linecap="round"/>
+    <path d="M214 98 L256 52 L298 98" fill="none" stroke="#f2b84b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

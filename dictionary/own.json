@@ -1,0 +1,861 @@
+{
+ "format": "czytnik-own-translations",
+ "version": 1,
+ "direction": "en-pl",
+ "name": "Baza własna — przykłady",
+ "note": "Przykładowe hasła i zdania napisane na potrzeby projektu Czytnik EPUB v0.2. Możesz swobodnie dopisywać własne wpisy w tym pliku. Licencja tych danych: do ustalenia przez autora projektu.",
+ "entries": [
+  {
+   "word": "book",
+   "translations": [
+    "książka",
+    "rezerwować"
+   ],
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "She left her book on the train.",
+     "pl": "Zostawiła książkę w pociągu."
+    },
+    {
+     "en": "We booked a table for eight o'clock.",
+     "pl": "Zarezerwowaliśmy stolik na ósmą."
+    }
+   ]
+  },
+  {
+   "word": "chapter",
+   "translations": [
+    "rozdział"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "I stopped reading at the end of chapter three.",
+     "pl": "Przestałem czytać na końcu trzeciego rozdziału."
+    }
+   ]
+  },
+  {
+   "word": "page",
+   "translations": [
+    "strona",
+    "kartka"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "Turn to page twelve.",
+     "pl": "Przejdź do strony dwunastej."
+    }
+   ]
+  },
+  {
+   "word": "word",
+   "translations": [
+    "słowo"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "I don't know this word.",
+     "pl": "Nie znam tego słowa."
+    }
+   ]
+  },
+  {
+   "word": "story",
+   "translations": [
+    "opowieść",
+    "historia",
+    "opowiadanie"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "He told us a strange story.",
+     "pl": "Opowiedział nam dziwną historię."
+    }
+   ]
+  },
+  {
+   "word": "enter",
+   "translations": [
+    "wejść",
+    "wchodzić",
+    "wpisać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Please enter your name.",
+     "pl": "Proszę wpisać swoje imię."
+    },
+    {
+     "en": "She entered the room quietly.",
+     "pl": "Cicho weszła do pokoju."
+    }
+   ]
+  },
+  {
+   "word": "run",
+   "translations": [
+    "biegać",
+    "biec",
+    "prowadzić (firmę)",
+    "działać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "He runs every morning.",
+     "pl": "Biega każdego ranka."
+    },
+    {
+     "en": "She runs a small bakery.",
+     "pl": "Prowadzi małą piekarnię."
+    }
+   ]
+  },
+  {
+   "word": "light",
+   "translations": [
+    "światło",
+    "lekki",
+    "jasny"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "examples": [
+    {
+     "en": "Turn on the light.",
+     "pl": "Włącz światło."
+    },
+    {
+     "en": "The bag was surprisingly light.",
+     "pl": "Torba była zaskakująco lekka."
+    }
+   ]
+  },
+  {
+   "word": "bank",
+   "translations": [
+    "bank",
+    "brzeg (rzeki)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "We sat on the bank of the river.",
+     "pl": "Siedzieliśmy na brzegu rzeki."
+    },
+    {
+     "en": "The bank opens at nine.",
+     "pl": "Bank otwiera się o dziewiątej."
+    }
+   ]
+  },
+  {
+   "word": "watch",
+   "translations": [
+    "oglądać",
+    "obserwować",
+    "zegarek"
+   ],
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "They watched the stars all night.",
+     "pl": "Obserwowali gwiazdy całą noc."
+    },
+    {
+     "en": "His watch was five minutes slow.",
+     "pl": "Jego zegarek spóźniał się o pięć minut."
+    }
+   ]
+  },
+  {
+   "word": "set",
+   "translations": [
+    "ustawić",
+    "zestaw",
+    "położyć"
+   ],
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "She set the cup on the table.",
+     "pl": "Postawiła filiżankę na stole."
+    }
+   ]
+  },
+  {
+   "word": "quiet",
+   "translations": [
+    "cichy",
+    "spokojny",
+    "cisza"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "It was a quiet evening.",
+     "pl": "To był spokojny wieczór."
+    }
+   ]
+  },
+  {
+   "word": "remember",
+   "translations": [
+    "pamiętać",
+    "przypominać sobie"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "I remember this street.",
+     "pl": "Pamiętam tę ulicę."
+    }
+   ]
+  },
+  {
+   "word": "forget",
+   "translations": [
+    "zapomnieć",
+    "zapominać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Don't forget your keys.",
+     "pl": "Nie zapomnij kluczy."
+    }
+   ]
+  },
+  {
+   "word": "reader",
+   "translations": [
+    "czytelnik",
+    "czytnik"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "The reader turned the page.",
+     "pl": "Czytelnik przewrócił stronę."
+    }
+   ]
+  },
+  {
+   "word": "library",
+   "translations": [
+    "biblioteka"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "The library closes at six.",
+     "pl": "Biblioteka zamyka się o szóstej."
+    }
+   ]
+  },
+  {
+   "word": "window",
+   "translations": [
+    "okno"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "She looked out of the window.",
+     "pl": "Wyjrzała przez okno."
+    }
+   ]
+  },
+  {
+   "word": "door",
+   "translations": [
+    "drzwi"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "Someone knocked on the door.",
+     "pl": "Ktoś zapukał do drzwi."
+    }
+   ]
+  },
+  {
+   "word": "night",
+   "translations": [
+    "noc",
+    "wieczór"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "It rained all night.",
+     "pl": "Padało całą noc."
+    }
+   ]
+  },
+  {
+   "word": "morning",
+   "translations": [
+    "rano",
+    "poranek"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "Good morning!",
+     "pl": "Dzień dobry!"
+    }
+   ]
+  },
+  {
+   "word": "walk",
+   "translations": [
+    "chodzić",
+    "iść",
+    "spacer"
+   ],
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "We walked along the beach.",
+     "pl": "Szliśmy wzdłuż plaży."
+    }
+   ]
+  },
+  {
+   "word": "water",
+   "translations": [
+    "woda",
+    "podlewać"
+   ],
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Could I have a glass of water?",
+     "pl": "Czy mogę prosić szklankę wody?"
+    }
+   ]
+  },
+  {
+   "word": "friend",
+   "translations": [
+    "przyjaciel",
+    "przyjaciółka",
+    "kolega"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "She is my oldest friend.",
+     "pl": "Jest moją najstarszą przyjaciółką."
+    }
+   ]
+  },
+  {
+   "word": "know",
+   "translations": [
+    "wiedzieć",
+    "znać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "I know him from school.",
+     "pl": "Znam go ze szkoły."
+    }
+   ]
+  },
+  {
+   "word": "think",
+   "translations": [
+    "myśleć",
+    "sądzić"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "I think you are right.",
+     "pl": "Myślę, że masz rację."
+    }
+   ]
+  },
+  {
+   "word": "say",
+   "translations": [
+    "mówić",
+    "powiedzieć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "What did he say?",
+     "pl": "Co powiedział?"
+    }
+   ]
+  },
+  {
+   "word": "tell",
+   "translations": [
+    "powiedzieć",
+    "opowiedzieć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Tell me what happened.",
+     "pl": "Powiedz mi, co się stało."
+    }
+   ]
+  },
+  {
+   "word": "see",
+   "translations": [
+    "widzieć",
+    "zobaczyć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Can you see the lighthouse?",
+     "pl": "Widzisz latarnię morską?"
+    }
+   ]
+  },
+  {
+   "word": "go",
+   "translations": [
+    "iść",
+    "jechać",
+    "chodzić"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "We go to the lake every summer.",
+     "pl": "Co lato jeździmy nad jezioro."
+    }
+   ]
+  },
+  {
+   "word": "come",
+   "translations": [
+    "przychodzić",
+    "przyjść"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Come and sit with us.",
+     "pl": "Chodź, usiądź z nami."
+    }
+   ]
+  },
+  {
+   "word": "make",
+   "translations": [
+    "robić",
+    "zrobić",
+    "tworzyć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "She makes excellent soup.",
+     "pl": "Robi wyśmienitą zupę."
+    }
+   ]
+  },
+  {
+   "word": "take",
+   "translations": [
+    "brać",
+    "zabrać",
+    "wziąć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "Take an umbrella with you.",
+     "pl": "Weź ze sobą parasol."
+    }
+   ]
+  },
+  {
+   "word": "give",
+   "translations": [
+    "dawać",
+    "dać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "He gave her a small box.",
+     "pl": "Dał jej małe pudełko."
+    }
+   ]
+  },
+  {
+   "word": "find",
+   "translations": [
+    "znajdować",
+    "znaleźć"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "I can't find my glasses.",
+     "pl": "Nie mogę znaleźć okularów."
+    }
+   ]
+  },
+  {
+   "word": "child",
+   "translations": [
+    "dziecko"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "The child was asleep.",
+     "pl": "Dziecko spało."
+    }
+   ]
+  },
+  {
+   "word": "man",
+   "translations": [
+    "mężczyzna",
+    "człowiek"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "An old man stood at the gate.",
+     "pl": "Przy bramie stał starszy mężczyzna."
+    }
+   ]
+  },
+  {
+   "word": "woman",
+   "translations": [
+    "kobieta"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "The woman smiled.",
+     "pl": "Kobieta się uśmiechnęła."
+    }
+   ]
+  },
+  {
+   "word": "house",
+   "translations": [
+    "dom"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "Their house is on the hill.",
+     "pl": "Ich dom stoi na wzgórzu."
+    }
+   ]
+  },
+  {
+   "word": "city",
+   "translations": [
+    "miasto"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "It is a busy city.",
+     "pl": "To ruchliwe miasto."
+    }
+   ]
+  },
+  {
+   "word": "small",
+   "translations": [
+    "mały",
+    "niewielki"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "examples": [
+    {
+     "en": "A small bird landed on the fence.",
+     "pl": "Na płocie usiadł mały ptak."
+    }
+   ]
+  },
+  {
+   "word": "big",
+   "translations": [
+    "duży",
+    "wielki"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "examples": [
+    {
+     "en": "That's a big mistake.",
+     "pl": "To duży błąd."
+    }
+   ]
+  },
+  {
+   "word": "old",
+   "translations": [
+    "stary"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "examples": [
+    {
+     "en": "The old bridge is closed.",
+     "pl": "Stary most jest zamknięty."
+    }
+   ]
+  },
+  {
+   "word": "happy",
+   "translations": [
+    "szczęśliwy",
+    "zadowolony"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "examples": [
+    {
+     "en": "She looked happy.",
+     "pl": "Wyglądała na szczęśliwą."
+    }
+   ]
+  },
+  {
+   "word": "dark",
+   "translations": [
+    "ciemny",
+    "ciemność"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "examples": [
+    {
+     "en": "It was already dark outside.",
+     "pl": "Na zewnątrz było już ciemno."
+    }
+   ]
+  },
+  {
+   "word": "suddenly",
+   "translations": [
+    "nagle",
+    "raptem"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "examples": [
+    {
+     "en": "Suddenly the lights went out.",
+     "pl": "Nagle światła zgasły."
+    }
+   ]
+  },
+  {
+   "word": "although",
+   "translations": [
+    "chociaż",
+    "mimo że"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "examples": [
+    {
+     "en": "Although it was late, we kept talking.",
+     "pl": "Chociaż było późno, rozmawialiśmy dalej."
+    }
+   ]
+  },
+  {
+   "word": "however",
+   "translations": [
+    "jednak",
+    "niemniej"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "examples": [
+    {
+     "en": "However, nobody answered.",
+     "pl": "Jednak nikt nie odpowiedział."
+    }
+   ]
+  },
+  {
+   "word": "give up",
+   "translations": [
+    "poddać się",
+    "zrezygnować",
+    "porzucić"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "He never gave up.",
+     "pl": "Nigdy się nie poddał."
+    }
+   ]
+  },
+  {
+   "word": "take care of",
+   "translations": [
+    "zajmować się",
+    "dbać o"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "She takes care of her grandmother.",
+     "pl": "Zajmuje się swoją babcią."
+    }
+   ]
+  },
+  {
+   "word": "look forward to",
+   "translations": [
+    "nie móc się doczekać",
+    "wyczekiwać"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "examples": [
+    {
+     "en": "We look forward to the summer.",
+     "pl": "Nie możemy się doczekać lata."
+    }
+   ]
+  },
+  {
+   "word": "as well as",
+   "translations": [
+    "jak również",
+    "oraz"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "examples": [
+    {
+     "en": "She speaks French as well as English.",
+     "pl": "Mówi po francusku, jak również po angielsku."
+    }
+   ]
+  }
+ ]
+}

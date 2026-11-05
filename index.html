@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <script>try{var t=localStorage.getItem("reup-theme")||"auto";if(t==="auto")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#2f5d46">
+  <meta name="description" content="REUP — Read English. Understand Polish.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" href="./icons/favicon-64.png">
+  <title>REUP</title>
+  <script type="module" crossorigin src="./assets/index-CdNeeQdp.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CW-NcJsP.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <button id="back-library" class="icon-button hidden" aria-label="Wróć do biblioteki">←</button>
+      <div id="topbar-chapter" class="topbar-chapter hidden" aria-live="polite"></div>
+      <div class="brand"><img class="brand-mark" src="./icons/icon-192.png" alt="" width="31" height="31"><span>REUP</span></div>
+      <div class="top-actions">
+        <button id="open-toc" class="icon-button hidden" aria-label="Spis treści" title="Spis treści">☰</button>
+        <button id="open-appearance" class="icon-button hidden" aria-label="Wygląd tekstu" title="Wygląd tekstu">Aa</button>
+        <button id="add-book" class="primary-button">＋<span class="btn-label"> Dodaj książkę</span></button>
+        <button id="open-settings" class="icon-button" aria-label="Ustawienia" title="Ustawienia">⚙</button>
+        <input id="file-input" type="file" accept=".epub,application/epub+zip" hidden>
+      </div>
+    </header>
+    <main id="library-view" class="page">
+      <section class="welcome">
+        <div class="eyebrow">READ ENGLISH. UNDERSTAND POLISH.</div>
+        <h1>Każda książka.<br><em>We własnym tempie.</em></h1>
+        <p>Importuj plik EPUB, czytaj po angielsku i dotknij słowa, aby zobaczyć tłumaczenie. Książki i postęp zostają na tym urządzeniu.</p>
+      </section>
+      <div class="section-heading"><div><h2>Biblioteka</h2><p id="library-count">Twoje książki pojawią się tutaj.</p></div></div>
+      <div id="book-grid" class="book-grid"></div>
+      <div id="empty-state" class="empty-state">
+        <div class="empty-icon">＋</div><h3>Biblioteka jest pusta</h3>
+        <p>Dodaj swoją pierwszą książkę w formacie EPUB.</p>
+        <button id="empty-add" class="primary-button">Wybierz plik EPUB</button>
+      </div>
+      <p class="privacy-note">Książki są przechowywane lokalnie na tym urządzeniu. Nie przesyłamy ich na serwer. Zrób kopię zapasową w ustawieniach (⚙).</p>
+      <p id="dict-status" class="dict-status" aria-live="polite"></p>
+      <div id="install-box" class="install-box hidden" role="region" aria-label="Instalacja aplikacji">
+        <span>Zainstaluj REUP na tym urządzeniu — będzie działać jak zwykła aplikacja, także offline.</span>
+        <button id="install-app" class="primary-button" type="button">Zainstaluj</button>
+        <button id="install-dismiss" class="icon-button" type="button" aria-label="Ukryj">×</button>
+      </div>
+    </main>
+    <main id="reader-view" class="reader-page hidden">
+      <div class="reader-toolbar"><div><div id="reader-book-title" class="reader-book-title"></div><div class="reader-hint"><span class="hint-mouse">Kliknij słowo, aby zobaczyć tłumaczenie</span><span class="hint-touch">Dotknij słowo · przesuń palcem, aby zmienić stronę</span></div></div><div class="reader-nav"><button id="prev-page" class="icon-button" aria-label="Poprzednia strona">←</button><button id="next-page" class="icon-button" aria-label="Następna strona">→</button></div></div>
+      <div id="reader-shell"><div id="epub-viewer"></div></div>
+      <div class="reader-footer"><span id="progress-label">Początek książki</span><input id="progress-slider" class="progress-slider" type="range" min="0" max="100" step="1" value="0" aria-label="Postęp w książce"></div>
+    </main>
+    <div id="translation-popover" class="translation-popover hidden" role="dialog" aria-live="polite">
+      <button id="close-translation" class="popover-close" aria-label="Zamknij tłumaczenie">×</button>
+      <div class="translation-label">TŁUMACZENIE</div><div id="selected-word" class="selected-word"></div>
+      <div id="translation-result" class="translation-result"></div>
+      <div id="translation-meta" class="translation-meta"></div>
+    </div>
+    <div id="toc-sheet" class="sheet hidden" role="dialog" aria-modal="true" aria-labelledby="toc-title">
+      <div class="sheet-card">
+        <div class="sheet-head"><h2 id="toc-title">Spis treści</h2><button id="close-toc" class="icon-button" aria-label="Zamknij">×</button></div>
+        <ul id="toc-list" class="toc-list"></ul>
+        <p id="toc-empty" class="sheet-note hidden">Ta książka nie ma spisu treści.</p>
+      </div>
+    </div>
+    <div id="appearance-sheet" class="sheet sheet-light hidden" role="dialog" aria-modal="true" aria-labelledby="appearance-title">
+      <div class="sheet-card">
+        <div class="sheet-head"><h2 id="appearance-title">Wygląd tekstu</h2><button id="close-appearance" class="icon-button" aria-label="Zamknij">×</button></div>
+        <div class="app-row"><span class="app-label">Rozmiar</span><div class="size-ctl"><button id="font-down" class="secondary-button" type="button" aria-label="Zmniejsz tekst">A−</button><span id="size-label" class="size-label">100%</span><button id="font-up" class="secondary-button" type="button" aria-label="Powiększ tekst">A+</button></div></div>
+        <div class="app-row"><span class="app-label">Motyw</span><div id="seg-theme" class="seg" role="radiogroup" aria-label="Motyw"></div></div>
+        <div class="app-row"><span class="app-label">Krój</span><div id="seg-font" class="seg" role="radiogroup" aria-label="Krój pisma"></div></div>
+        <div class="app-row"><span class="app-label">Interlinia</span><div id="seg-lh" class="seg" role="radiogroup" aria-label="Interlinia"></div></div>
+        <div class="app-row"><span class="app-label">Marginesy</span><div id="seg-margin" class="seg" role="radiogroup" aria-label="Marginesy"></div></div>
+      </div>
+    </div>
+    <div id="update-banner" class="update-banner hidden" role="status"><span>Dostępna nowa wersja REUP.</span><button id="update-reload" type="button">Odśwież</button></div>
+    <div id="settings-sheet" class="sheet hidden" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <div class="sheet-card">
+        <div class="sheet-head"><h2 id="settings-title">Ustawienia</h2><button id="close-settings" class="icon-button" aria-label="Zamknij">×</button></div>
+        <section>
+          <h3>Kopia zapasowa</h3>
+          <p class="sheet-note">Dane są tylko na tym urządzeniu. Zapisz kopię, żeby nie stracić biblioteki lub przenieść ją na inne urządzenie.</p>
+          <div class="sheet-actions">
+            <button id="backup-light" class="primary-button" type="button">Zapisz kopię lekką</button>
+            <button id="backup-full" class="secondary-button" type="button">Zapisz kopię pełną</button>
+            <button id="backup-restore" class="secondary-button" type="button">Wczytaj kopię…</button>
+            <input id="backup-input" type="file" accept=".json,.zip,application/json,application/zip" hidden>
+          </div>
+          <p class="sheet-note"><b>Lekka</b>: lista książek, postęp i rozmiar tekstu (kilka KB). Książki dodasz ponownie sam, a postęp przypiszemy im automatycznie. <b>Pełna</b>: razem z plikami EPUB (może być duża).</p>
+          <div id="pending-box" class="pending-box hidden"><b>Czekają na książki</b> (dodaj je, a postęp zostanie przypisany):<ul id="pending-list"></ul></div>
+        </section>
+        <section>
+          <h3>Wygląd i czytanie</h3>
+          <button id="settings-appearance" class="secondary-button" type="button">Motyw, krój i rozmiar tekstu…</button>
+          <label class="pref"><input id="pref-wake" type="checkbox" checked> <span>Nie wygaszaj ekranu podczas czytania</span></label>
+          <label class="pref"><input id="pref-fullscreen" type="checkbox" checked> <span>Pełny ekran podczas czytania (ukrywa paski systemu Android: pasek stanu i przyciski nawigacji)</span></label>
+          <p class="sheet-note">Pełny ekran włącza się po otwarciu książki. Pasek systemu przywołasz przesunięciem od krawędzi ekranu.</p>
+        </section>
+        <section>
+          <h3>Ochrona danych</h3>
+          <p id="persist-status" class="sheet-note"></p>
+          <button id="persist-request" class="secondary-button hidden" type="button">Poproś o trwałe przechowywanie</button>
+        </section>
+        <section>
+          <h3>O aplikacji</h3>
+          <p id="about-text" class="sheet-note"></p>
+          <p id="install-hint" class="sheet-note"></p>
+          <button id="show-licenses" class="secondary-button" type="button">Licencje i źródła</button>
+          <pre id="licenses" class="licenses hidden"></pre>
+        </section>
+      </div>
+    </div>
+    <div id="toast" class="toast hidden" role="status"></div>
+  </div>
+</body>
+</html>
